@@ -1,0 +1,1 @@
+This project aims to predict bank deposit sizes using macro-economic indicators and bank-level data.
