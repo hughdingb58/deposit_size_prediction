@@ -23,12 +23,19 @@ The full analysis is done in a single Jupyter notebook for clarity and ease of u
 
 ## Required libraries
 
-- NumPy
-- Pandas
+The following libraries are required:
+
+- numpy
+- pandas
 - fredapi
-- scikit-learn
+- feather
 - matplotlib
 - seaborn
+- scikit-learn
+
+You can install them by navigating to this project's directory in cmd and running the following command:
+
+```pip install -r requirements.txt```
 
 ## Data sources
 
@@ -44,9 +51,11 @@ Our notebook is structured as follows:
 - Data gathering and preparation
 	- FRED
 	- FDIC
+	- Merging FRED and FDIC data
 - Data exploration
-	- FRED
-	- FDIC
+	- Outlier detection
+	- Summary statistics
+	- Correlation heatmap
 - Unsupervised modelling exploration
 - Supervised modelling and analysis
 	- Results and interpretation
