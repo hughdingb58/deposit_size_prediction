@@ -1,0 +1,7 @@
+numpy
+pandas
+fredapi
+matplotlib
+pyarrow
+seaborn
+scikit-learn
