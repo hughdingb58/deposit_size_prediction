@@ -19,7 +19,7 @@ We would like to learn:
 
 # Running the notebook
 
-We have chosen to do the full analysis in a single Jupyter notebook for ease of use. We have made an effort to keep it navigable. You will need to have an installation of Jupyter and Python >= 3.
+The full analysis is done in a single Jupyter notebook for clarity and ease of use. You will need to have an installation of Jupyter and Python >= 3.
 
 ## Required libraries
 
@@ -44,11 +44,11 @@ Our notebook is structured as follows:
 - Data gathering and preparation
 	- FRED
 	- FDIC
-- Initial exploration
+- Data exploration
 	- FRED
 	- FDIC
-- Exploration with unsupervised machine learning techniques
-- Supervised analysis
+- Unsupervised modelling exploration
+- Supervised modelling and analysis
 	- Results and interpretation
 
 # Results
