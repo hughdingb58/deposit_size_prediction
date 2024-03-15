@@ -53,7 +53,7 @@ Our notebook is structured as follows:
 	- FDIC
 	- Merging FRED and FDIC data
 - Data exploration
-	- Outlier detection
+	- Data distributions and outlier detection
 	- Summary statistics
 	- Correlation heatmap
 - Unsupervised modelling exploration
