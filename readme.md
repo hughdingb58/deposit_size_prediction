@@ -21,6 +21,10 @@ We would like to learn:
 
 The full analysis is done in a single Jupyter notebook for clarity and ease of use. You will need to have an installation of Jupyter and Python >= 3.
 
+## FRED API key
+
+Please create a file called **fred_api_key.txt** and enter your FRED API key in the first line. This file will be read in the Jupyter notebook.
+
 ## Required libraries
 
 The following libraries are required:
@@ -51,13 +55,13 @@ Our notebook is structured as follows:
 - Data gathering and preparation
 	- FRED
 	- FDIC
-	- Merging FRED and FDIC data
 - Data exploration
-	- Data distributions and outlier detection
+	- FRED time series plots
+	- FDIC data distributions and outlier detection
+	- Merging FRED and FDIC data
 	- Summary statistics
 	- Correlation heatmap
-- Unsupervised modelling exploration
-- Supervised modelling and analysis
+- Modelling and analysis
 	- Results and interpretation
 
 # Results
