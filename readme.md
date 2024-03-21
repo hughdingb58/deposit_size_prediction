@@ -14,8 +14,10 @@ Our goal is specifically to forecast US bank deposit size based on key macroecon
 
 We would like to learn:
 
-1. To what degree do these indicators affect bank deposits?
+1. To what degree do these indicators affect non-maturity bank deposits?
 2. Are certain types of indicators clearly more prominent in our model than others?
+
+We use total deposits and the ratio of high maturity debt securities to estimate the size of non-maturity deposits. According to [FDIC literature](https://www.fdic.gov/analysis/cfr/bank-research-conference/annual-20th/papers/xiang-paper.pdf), non-maturity deposits constitute the majority of bank balance sheets.
 
 # Running the notebook
 
