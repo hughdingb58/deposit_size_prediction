@@ -21,7 +21,9 @@ We use total deposits and the ratio of high maturity debt securities to estimate
 
 # Running the notebook
 
-The full analysis is done in a single Jupyter notebook for clarity and ease of use. You will need to have an installation of Jupyter and Python >= 3.
+Data gathering is done in **gather_api_data.py**, which makes API calls to FRED and the FDIC and saves the data to **fred_econ.feather** and **fdic_financials.feather**. Since the feather tables are already in the git repo, you may skip this step if attempting to replicate our analysis.
+
+The analysis is done in a single Jupyter notebook, **main.ipynb**, for ease of use. You will need to have an installation of Jupyter and Python >= 3.
 
 ## FRED API key
 
@@ -55,8 +57,6 @@ You can install them by navigating to this project's directory in cmd and runnin
 Our notebook is structured as follows:
 
 - Data gathering and preparation
-	- FRED
-	- FDIC
 - Data exploration
 	- FRED time series plots
 	- FDIC data distributions and outlier detection
