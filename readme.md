@@ -1,12 +1,12 @@
-# Predicting bank deposit size across varying economic conditions
+# Predicting bank non-maturity deposit size across varying economic conditions
 
 This project aims to predict bank deposit sizes using macro-economic indicators and bank-level data.
 
 # Project description
 
-In today's dynamic banking environment, accurately predicting deposits is crucial for effective liquidity management and strategic decision-making. Deposits form a significant portion of a bank's liabilities and are subject to various factors such as interest rates, economic conditions, and customer behavior. By leveraging data science techniques, banks can gain deeper insights into the drivers of deposits and improve their forecasting accuracy.
+In today's banking environment, accurately predicting deposits is crucial for effective liquidity management and strategic decision-making. Non-maturity deposits form a significant portion of a bank's liabilities and are subject to various factors such as interest rates, economic conditions, and customer behavior. Banks can use data science techniques to gain deeper insights into the drivers of deposits and improve their forecasting accuracy.
 
-Our goal is specifically to forecast US bank deposit size based on key macroeconomic indicators, including
+Our goal is to forecast US bank non-maturity deposit size based on key macroeconomic indicators, including
 
 - interest rates,
 - GDP growth rate as a proxy for consumer confidence (economic expansion vs recession), and
