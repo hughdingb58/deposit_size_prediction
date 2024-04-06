@@ -27,6 +27,8 @@ The analysis is done in a single Jupyter notebook, **main.ipynb**, for ease of u
 
 ## FRED API key
 
+You will need to create your [own FRED API key](https://fred.stlouisfed.org/docs/api/api_key.html).
+
 Please create a file called **fred_api_key.txt** and enter your FRED API key in the first line. This file will be read in the Jupyter notebook.
 
 ## Required libraries
@@ -36,10 +38,11 @@ The following libraries are required:
 - numpy
 - pandas
 - fredapi
-- feather
 - matplotlib
+- pyarrow
 - seaborn
 - scikit-learn
+- scipy
 
 You can install them by navigating to this project's directory in cmd and running the following command:
 
