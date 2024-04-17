@@ -25,10 +25,10 @@ You will need to have an installation of Jupyter and Python >= 3.
 
 Analysis is done across two Jupyter notebooks:
 
-- **1_preparation_exploration** for data gathering, preparation, and exploration.
-  - For data gathering, the notebook runs **gather_api_data.py**, which makes API calls to FRED and the FDIC and saves the data to **fred_econ.feather** and **fdic_financials.feather**. Since the feather tables are already in the git repo, you may skip this step if attempting to replicate our analysis.
-  - At the end of the notebook, the data is saved into **df_train.feather** for model training and **df_samples.feather** for robustness checks.
-- **2_supervised_analysis.ipynb**, for supervised analysis and results. It reads in **df_train.feather** and **df_samples.feather** produced by the first notebook.
+- **notebooks/1_preparation_exploration** for data gathering, preparation, and exploration.
+  - For data gathering, the notebook runs **scripts/gather_api_data.py**, which makes API calls to FRED and the FDIC and saves the data to **data/fred_econ.feather** and **data/fdic_financials.feather**. Since these two feather tables are already in the git repo, you may skip this step if attempting to replicate our analysis.
+  - At the end of the notebook, the data is saved into **data_cleaned/df_train.feather** for model training and **data_cleaned/df_samples.feather** for robustness checks.
+- **notebooks/2_supervised_analysis.ipynb**, for supervised analysis and results. It reads in **data_cleaned/df_train.feather** and **data_cleaned/df_samples.feather** produced by the first notebook.
 
 ## FRED API key
 
