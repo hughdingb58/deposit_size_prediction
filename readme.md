@@ -65,3 +65,7 @@ You can install them by navigating to this project's directory in cmd and runnin
 We find that regression models (lasso and OLS) are not significantly less effective at predicting bank deposit size than more complex models such as random forest and gradient boosting. This means we are able to run interpretable regression models without a major downside to performance.
 
 We find that CPI is the strongest predictor of bank deposit size in the following quarter. In addition, bank deposit sizes perform differently across different banking models (small, medium, and large banks).
+
+# Data access statement
+
+All data is freely accessible through FRED and FDIC websites and APIs. All data is owned by these respective organizations.
