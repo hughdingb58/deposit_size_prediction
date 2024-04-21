@@ -1,4 +1,4 @@
-# Predicting bank non-maturity deposit size across varying economic conditions
+# Predicting non-maturity deposits across different US bank archetypes through macroeconomic and consumer indicators
 
 This project aims to predict bank deposit sizes using macro-economic indicators and bank-level data.
 
